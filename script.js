@@ -29,11 +29,11 @@
         revealed = true;
         document.getElementById('waiting').hidden = true;
         document.getElementById('birthday').hidden = false;
-        document.getElementById('headline').innerHTML = 'Hoy la historia<br>es tuya, <em>Briggite.</em>';
+        document.getElementById('headline').innerHTML = 'Hoy la historia<br>es tuya, <em>Briggitte.</em>';
         document.getElementById('intro').textContent = 'La espera terminó. Que empiece un año lleno de cosas bonitas.';
         document.getElementById('announcement').textContent = '¡Ya es tu día! Tu carta está abierta. ♡';
         document.body.classList.add('celebrating');
-        document.title = '¡Feliz cumpleaños, Briggite!';
+        document.title = '¡Feliz cumpleaños, Briggitte!';
         celebrate();
       }
       return true;
